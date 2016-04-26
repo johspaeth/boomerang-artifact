@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="mac-spaeth.sit.fraunhofer.de" name="soot.jimple.infoflow.test.junit.ConstantTests" skipped="2" tests="16" time="17.848" timestamp="2015-06-15T11:23:04">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.7.0_51-b13" />
+    <property name="user.name" value="spaeth" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib" />
+    <property name="infoflow.jar" value="../builds/infoflow-dart.jar" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="soot-infoflow" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="DE" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/build.xml" />
+    <property name="os.version" value="10.10.3" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.51-b03" />
+    <property name="infoflow-javadoc.jar" value="" />
+    <property name="ant.file.soot-infoflow" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/build.xml" />
+    <property name="ant.library.dir" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="infoflow-tests.jar" value="../builds/infoflow-dart-tests.jar" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
+    <property name="user.home" value="/Users/spaeth" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner soot.jimple.infoflow.test.junit.ConstantTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/spaeth/Documents/workspace/soot-infoflow-alias/reports/TEST-soot.jimple.infoflow.test.junit.ConstantTests.xml crashfile=/Users/spaeth/Documents/workspace/soot-infoflow-alias/junitvmwatcher3863051186898270007.properties propsfile=/Users/spaeth/Documents/workspace/soot-infoflow-alias/junit6429888381886224323.properties" />
+    <property name="java.class.path" value="/Users/spaeth/Documents/workspace/builds/soot-trunk.jar:/Users/spaeth/Documents/workspace/builds/dart.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/build/classes:/Users/spaeth/Documents/workspace/soot-infoflow-alias/build/testclasses:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/cos.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/j2ee.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/junit.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/org.hamcrest.core_1.3.0.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-api-1.7.5.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-simple-1.7.5.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="ant.file.type.soot-infoflow" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="eclipse.pdebuild.home" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/61/20qsh7_j6_ncnywwtd50d_qm0000gp/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="dart.jar" value="../builds/dart.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="soot.jar" value="../builds/soot-trunk.jar" />
+    <property name="basedir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar" />
+    <property name="file.encoding" value="US-ASCII" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="runtests" />
+  </properties>
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="fpConstInterproceduralTest1" time="2.994" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="fpConstInterproceduralTest2" time="1.288" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="fpConstInterproceduralTest3" time="0.781" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="fpConstInterproceduralTest4" time="0.94" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="fpConstInterproceduralTest5" time="0.471" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="fpConstInterproceduralTest6" time="0.468" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="fpConstIntraproceduralTest1" time="0.524" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="constantFieldArrayTest" time="0.9" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="allocSiteTest1" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="constantArrayTest" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="constantStaticArrayTest" time="0.935" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="easyConstantVarTest" time="0.88" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="constantExceptionTest1" time="5.0" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="easyConstantFieldTest" time="1.07" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="constantFieldTest" time="0.938" />
+  <testcase classname="soot.jimple.infoflow.test.junit.ConstantTests" name="constResursiveTest1" time="0.592" />
+  <system-out><![CDATA[Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> * | >> @ <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> = $r0
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> * | >> @ <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> = $r0
+$r0(java.lang.String[]) * | >> @ $r0[0] = tainted
+$r1(java.lang.String[]) * | >> @ $r1[0] = tainted
+_this(soot.jimple.infoflow.test.ConstantTestCode) <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String[] fieldArray> * | $r1[0] = tainted>> @ this.<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String[] fieldArray> = $r0
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> * | >> @ <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> = $r0
+$r0(java.lang.String[]) * | >> @ $r0[0] = tainted
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> * | >> @ <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> = $r0
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 3.6 seconds.
+[Spark] Solution found in 3.6 seconds.
+<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> * | >> @ <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> = $r0
+l0(java.lang.AbstractStringBuilder) <java.lang.AbstractStringBuilder: int count> * | >> @ l0.<java.lang.AbstractStringBuilder: int count> = $i4
+l0(java.lang.AbstractStringBuilder) <java.lang.AbstractStringBuilder: int count> * | >> @ l0.<java.lang.AbstractStringBuilder: int count> = $i4
+l3(char[]) * | >> @ staticinvoke <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)>($r1, l1, l3, l4, $i1)
+l0(java.lang.AbstractStringBuilder) <java.lang.AbstractStringBuilder: int count> * | >> @ l0.<java.lang.AbstractStringBuilder: int count> = $i4
+_l2(char[]) * | staticinvoke <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)>($r1, l1, l3, l4, $i1)>> @ staticinvoke <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)>(l0, 0, l2, 0, $i1)
+_l0(java.lang.AbstractStringBuilder) <java.lang.AbstractStringBuilder: char[] value> * | staticinvoke <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)>($r1, l1, l3, l4, $i1)>> @ l0.<java.lang.AbstractStringBuilder: char[] value> = $r2
+l4(char[]) * | >> @ staticinvoke <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)>(l0, l1, l4, 0, $i2)
+l0(java.lang.String) <java.lang.String: char[] value> * | >> @ l0.<java.lang.String: char[] value> = $r0
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> * | >> @ <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> = $r0
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+this(soot.jimple.infoflow.test.ConstantTestCode$ConstantClass) <soot.jimple.infoflow.test.ConstantTestCode$ConstantClass: java.lang.String e> * | >> @ this.<soot.jimple.infoflow.test.ConstantTestCode$ConstantClass: java.lang.String e> = $r0
+<soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> * | >> @ <soot.jimple.infoflow.test.ConstantTestCode: java.lang.String tainted> = $r0
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/spaeth/Documents/workspace/builds/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-0] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.068887 seconds
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Callgraph has 62 edges
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-0] ERROR soot.jimple.infoflow.Infoflow - No sources or sinks found, aborting analysis
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-2] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.010704 seconds
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Callgraph has 63 edges
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-2] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-2] ERROR soot.jimple.infoflow.Infoflow - No sources or sinks found, aborting analysis
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-3] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.008905 seconds
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Callgraph has 63 edges
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-3] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-3] ERROR soot.jimple.infoflow.Infoflow - No sources or sinks found, aborting analysis
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-4] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.010145 seconds
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Callgraph has 68 edges
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 2 sources and 1 sinks.
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 18 forward and 1 backward edges solved, processing 1 results...
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 0.004135 seconds in total
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>(tainted) in method <soot.jimple.infoflow.test.ConstantTestCode: void leakIfGreaterThan(int,int)> was called with values from the following sources:
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - - tainted = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode: void leakIfGreaterThan(int,int)>
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void leakIfGreaterThan(int,int)>
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>(tainted)
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-7] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.008666 seconds
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Callgraph has 64 edges
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-7] ERROR soot.jimple.infoflow.Infoflow - No sources or sinks found, aborting analysis
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-8] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.017929 seconds
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Callgraph has 62 edges
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-8] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-8] ERROR soot.jimple.infoflow.Infoflow - No sources or sinks found, aborting analysis
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-9] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.003577 seconds
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Callgraph has 61 edges
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-9] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-9] ERROR soot.jimple.infoflow.Infoflow - No sources or sinks found, aborting analysis
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-10] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.006129 seconds
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Callgraph has 70 edges
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 2 sources and 2 sinks.
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 185 forward and 27 backward edges solved, processing 2 results...
+[Thread-10] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-10] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 2 connections between sources and sinks
+[Thread-10] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-10] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2
+[Thread-10] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 0.001919 seconds in total
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r6) in method <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldArrayTest()> was called with values from the following sources:
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - - tainted = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldArrayTest()>
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldArrayTest()>
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r6)
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r4) in method <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldArrayTest()> was called with values from the following sources:
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - - tainted = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldArrayTest()>
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldArrayTest()>
+[Thread-10] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r4)
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-13] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.002945 seconds
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Callgraph has 69 edges
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 2 sources and 1 sinks.
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 78 forward and 9 backward edges solved, processing 1 results...
+[Thread-13] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-13] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-13] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-13] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 9.18E-4 seconds in total
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r3) in method <soot.jimple.infoflow.test.ConstantTestCode: void constantStaticArrayTest()> was called with values from the following sources:
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - - tainted = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode: void constantStaticArrayTest()>
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void constantStaticArrayTest()>
+[Thread-13] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r3)
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-16] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.003891 seconds
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Callgraph has 65 edges
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 2 sources and 1 sinks.
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 18 forward and 1 backward edges solved, processing 1 results...
+[Thread-16] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-16] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-16] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-16] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 4.4E-4 seconds in total
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>(e) in method <soot.jimple.infoflow.test.ConstantTestCode: void easyConstantVarTest()> was called with values from the following sources:
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - - e = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode: void easyConstantVarTest()>
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void easyConstantVarTest()>
+[Thread-16] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>(e)
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-19] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.271489 seconds
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Callgraph has 2838 edges
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 2 sources and 2 sinks.
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 1355 forward and 201 backward edges solved, processing 1 results...
+[Thread-19] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-19] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-19] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-19] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 6.0E-4 seconds in total
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm#4.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r7) in method <soot.jimple.infoflow.test.ConstantTestCode: void constantExceptionTest1()> was called with values from the following sources:
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - - $r5 = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode: void constantExceptionTest1()>
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void constantExceptionTest1()>
+[Thread-19] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm#4.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r7)
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-22] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.002369 seconds
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Callgraph has 65 edges
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 1 sources and 1 sinks.
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 23 forward and 1 backward edges solved, processing 1 results...
+[Thread-22] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-22] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-22] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-22] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 5.36E-4 seconds in total
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1) in method <soot.jimple.infoflow.test.ConstantTestCode: void easyConstantFieldTest()> was called with values from the following sources:
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - - $r0 = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode: void <clinit>()>
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void easyConstantFieldTest()>
+[Thread-22] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1)
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-25] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.012793 seconds
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Callgraph has 68 edges
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 2 sources and 1 sinks.
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 45 forward and 9 backward edges solved, processing 1 results...
+[Thread-25] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-25] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-25] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-25] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 0.002715 seconds in total
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r2) in method <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldTest()> was called with values from the following sources:
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - - $r0 = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.ConstantTestCode$ConstantClass: void <init>(soot.jimple.infoflow.test.ConstantTestCode)>
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.ConstantTestCode: void constantFieldTest()>
+[Thread-25] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r2)
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-28] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.002169 seconds
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Callgraph has 63 edges
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-28] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-28] ERROR soot.jimple.infoflow.Infoflow - No sources or sinks found, aborting analysis
+]]></system-err>
+</testsuite>

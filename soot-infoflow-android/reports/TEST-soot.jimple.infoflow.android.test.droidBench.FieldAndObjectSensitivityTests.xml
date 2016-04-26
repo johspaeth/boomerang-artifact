@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="7" failures="0" hostname="cased175.cased.tu-darmstadt.de" name="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" skipped="0" tests="7" time="0.009" timestamp="2014-07-25T11:00:22">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="droidBenchDir" value="" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/spaeth/apache-ant-1.9.3" />
+    <property name="java.runtime.version" value="1.7.0_51-b13" />
+    <property name="user.name" value="spaeth" />
+    <property name="infoflow-android.jar" value="../compiled/infoflow-android/infoflow-android-path.jar" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib" />
+    <property name="infoflow.jar" value="../compiled/infoflow/infoflow-path.jar" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="Fetch or Build FlowDroid" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="DE" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/spaeth/Documents/workspace/soot-infoflow-android/build.xml" />
+    <property name="os.version" value="10.9.4" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.51-b03" />
+    <property name="ant.library.dir" value="/Users/spaeth/apache-ant-1.9.3/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/spaeth" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="infoflow-summaries.jar" value="" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  rundroidbench" />
+    <property name="java.class.path" value="/Users/spaeth/apache-ant-1.9.3/lib/ant-launcher.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-antlr.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-apache-bcel.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-apache-bsf.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-apache-log4j.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-apache-oro.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-apache-regexp.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-apache-resolver.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-apache-xalan2.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-commons-logging.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-commons-net.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-jai.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-javamail.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-jdepend.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-jmf.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-jsch.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-junit.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-junit4.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-launcher.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-netrexx.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-swing.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant-testutil.jar:/Users/spaeth/apache-ant-1.9.3/lib/ant.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/lib/tools.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/var/folders/61/20qsh7_j6_ncnywwtd50d_qm0000gp/T/" />
+    <property name="ant.file.Fetch or Build FlowDroid" value="/Users/spaeth/Documents/workspace/soot-infoflow-android/build.xml" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/spaeth/Documents/workspace/soot-infoflow-android" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.file.type.Fetch or Build FlowDroid" value="file" />
+    <property name="soot.jar" value="../compiled/soot/soot-trunk-path.jar" />
+    <property name="basedir" value="/Users/spaeth/Documents/workspace/soot-infoflow-android" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/Users/spaeth/apache-ant-1.9.3/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="rundroidbench" />
+  </properties>
+  <testcase classname="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" name="runTestFieldSensitivity1" time="0.001">
+    <error message="EasyTaintWrapperSource.txt (No such file or directory)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: EasyTaintWrapperSource.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:115)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:109)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:67)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:35)
+	at soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests.runTestFieldSensitivity1(FieldAndObjectSensitivityTests.java:25)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" name="runTestFieldSensitivity2" time="0.001">
+    <error message="EasyTaintWrapperSource.txt (No such file or directory)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: EasyTaintWrapperSource.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:115)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:109)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:67)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:35)
+	at soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests.runTestFieldSensitivity2(FieldAndObjectSensitivityTests.java:32)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" name="runTestFieldSensitivity3" time="0.001">
+    <error message="EasyTaintWrapperSource.txt (No such file or directory)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: EasyTaintWrapperSource.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:115)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:109)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:67)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:35)
+	at soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests.runTestFieldSensitivity3(FieldAndObjectSensitivityTests.java:39)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" name="runTestFieldSensitivity4" time="0.0">
+    <error message="EasyTaintWrapperSource.txt (No such file or directory)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: EasyTaintWrapperSource.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:115)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:109)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:67)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:35)
+	at soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests.runTestFieldSensitivity4(FieldAndObjectSensitivityTests.java:45)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" name="runTestInheritedObjects1" time="0.0">
+    <error message="EasyTaintWrapperSource.txt (No such file or directory)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: EasyTaintWrapperSource.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:115)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:109)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:67)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:35)
+	at soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests.runTestInheritedObjects1(FieldAndObjectSensitivityTests.java:52)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" name="runTestObjectSensitivity1" time="0.0">
+    <error message="EasyTaintWrapperSource.txt (No such file or directory)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: EasyTaintWrapperSource.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:115)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:109)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:67)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:35)
+	at soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests.runTestObjectSensitivity1(FieldAndObjectSensitivityTests.java:58)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests" name="runTestObjectSensitivity2" time="0.001">
+    <error message="EasyTaintWrapperSource.txt (No such file or directory)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: EasyTaintWrapperSource.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)
+	at java.io.FileReader.&lt;init&gt;(FileReader.java:72)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:115)
+	at soot.jimple.infoflow.taintWrappers.EasyTaintWrapper.&lt;init&gt;(EasyTaintWrapper.java:109)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:67)
+	at soot.jimple.infoflow.android.test.droidBench.JUnitTests.analyzeAPKFile(JUnitTests.java:35)
+	at soot.jimple.infoflow.android.test.droidBench.FieldAndObjectSensitivityTests.runTestObjectSensitivity2(FieldAndObjectSensitivityTests.java:65)
+</error>
+  </testcase>
+  <system-out><![CDATA[Loading Android.jar files from ${androidJarDir}
+Loading DroidBench from 
+Loading Android.jar files from ${androidJarDir}
+Loading DroidBench from 
+Loading Android.jar files from ${androidJarDir}
+Loading DroidBench from 
+Loading Android.jar files from ${androidJarDir}
+Loading DroidBench from 
+Loading Android.jar files from ${androidJarDir}
+Loading DroidBench from 
+Loading Android.jar files from ${androidJarDir}
+Loading DroidBench from 
+Loading Android.jar files from ${androidJarDir}
+Loading DroidBench from 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

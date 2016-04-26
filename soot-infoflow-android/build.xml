@@ -1,0 +1,40 @@
+<project default="compile" name="Fetch or Build FlowDroid">
+	<property file="ant.settings" />
+	<target name="settings">
+		<fail message="Please copy ant.settings.template to ant.settings, and set the variables in it." unless="soot.jar" />
+	</target>
+
+
+	<target name="clean">
+		<delete quiet="true" dir="build" />
+	</target>
+
+
+	<target name="compile" depends="settings">
+		<mkdir dir="build/classes" />
+		<javac srcdir="src" includeantruntime="true" source="1.7" target="1.7" destdir="build/classes" debug="true">
+			<classpath>
+				<pathelement location="${soot.jar}" />
+				<pathelement location="${heros.jar}" />
+				<pathelement location="${infoflow.jar}" />
+				<pathelement location="${boomerang.jar}" />
+				<pathelement location="${sbandda.jar}" />
+				<fileset dir="lib">
+					<include name="*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile">
+		<mkdir dir="build/jar" />
+		<jar destfile="${infoflow-android.jar}" basedir="build/classes">
+			<manifest>
+				<attribute name="Main-Class" value="soot.jimple.infoflow.android.TestApps.Test" />
+				<!-- <attribute name="Main-Class" value="?"/>-->
+			</manifest>
+		</jar>
+	</target>
+
+
+</project>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="11" failures="0" hostname="mac-spaeth.sit.fraunhofer.de" name="soot.jimple.infoflow.test.junit.EasyWrapperTests" skipped="0" tests="11" time="0.447" timestamp="2015-06-15T11:20:10">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.7.0_51-b13" />
+    <property name="user.name" value="spaeth" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib" />
+    <property name="infoflow.jar" value="../builds/infoflow-dart.jar" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="soot-infoflow" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="DE" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/build.xml" />
+    <property name="os.version" value="10.10.3" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.51-b03" />
+    <property name="infoflow-javadoc.jar" value="" />
+    <property name="ant.file.soot-infoflow" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/build.xml" />
+    <property name="ant.library.dir" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="infoflow-tests.jar" value="" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
+    <property name="user.home" value="/Users/spaeth" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner soot.jimple.infoflow.test.junit.EasyWrapperTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/spaeth/Documents/workspace/soot-infoflow-alias/reports/TEST-soot.jimple.infoflow.test.junit.EasyWrapperTests.xml crashfile=/Users/spaeth/Documents/workspace/soot-infoflow-alias/junitvmwatcher6196579828637328898.properties propsfile=/Users/spaeth/Documents/workspace/soot-infoflow-alias/junit3525100092789750599.properties" />
+    <property name="java.class.path" value="/Users/spaeth/Documents/workspace/builds/soot-trunk.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/build/classes:/Users/spaeth/Documents/workspace/soot-infoflow-alias/build/testclasses:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/cos.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/j2ee.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/junit.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/org.hamcrest.core_1.3.0.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-api-1.7.5.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-simple-1.7.5.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="ant.file.type.soot-infoflow" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="eclipse.pdebuild.home" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/61/20qsh7_j6_ncnywwtd50d_qm0000gp/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="dart.jar" value="../builds/dart.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="soot.jar" value="../builds/soot-trunk.jar" />
+    <property name="basedir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar" />
+    <property name="file.encoding" value="US-ASCII" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="runtests" />
+  </properties>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="stringConcatTest" time="0.047">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.stringConcatTest(EasyWrapperTests.java:178)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="equalsTest2" time="0.026">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.equalsTest2(EasyWrapperTests.java:69)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="interfaceInheritanceTest2" time="0.026">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.interfaceInheritanceTest2(EasyWrapperTests.java:138)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="interfaceInheritanceTest3" time="0.014">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.interfaceInheritanceTest3(EasyWrapperTests.java:153)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="interfaceInheritanceTest4" time="0.012">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.interfaceInheritanceTest4(EasyWrapperTests.java:168)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="interfaceInheritanceTest" time="0.011">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.interfaceInheritanceTest(EasyWrapperTests.java:123)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="equalsTest" time="0.013">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.equalsTest(EasyWrapperTests.java:43)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="getConstantTest2" time="0.02">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.getConstantTest2(EasyWrapperTests.java:108)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="hashCodeTest2" time="0.023">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.hashCodeTest2(EasyWrapperTests.java:82)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="hashCodeTest" time="0.027">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.hashCodeTest(EasyWrapperTests.java:56)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <testcase classname="soot.jimple.infoflow.test.junit.EasyWrapperTests" name="getConstantTest" time="0.016">
+    <error message="dart/preanalysis/NopTransformer" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: dart/preanalysis/NopTransformer
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:135)
+	at soot.jimple.infoflow.test.junit.JUnitTests.initInfoflow(JUnitTests.java:131)
+	at soot.jimple.infoflow.test.junit.EasyWrapperTests.getConstantTest(EasyWrapperTests.java:95)
+Caused by: java.lang.ClassNotFoundException: dart.preanalysis.NopTransformer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/spaeth/Documents/workspace/builds/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+]]></system-err>
+</testsuite>

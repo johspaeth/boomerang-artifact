@@ -1,0 +1,9 @@
+#Fill the following paths to compile with jars:
+
+#Soot & Heros necessary
+soot.jar=../Boomerang/lib/soot-trunk.jar
+heros.jar=../Boomerang/lib/heros-trunk.jar
+
+# Target JAR file
+sbandda.jar=../builds/sbandda.jar
+

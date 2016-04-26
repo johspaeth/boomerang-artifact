@@ -1,0 +1,12 @@
+#Fill the following paths to compile with jars:
+
+#Location of soot.jar
+boomerang.jar=../builds/boomerang.jar
+sbandda.jar=../builds/sbandda.jar
+soot.jar=../Boomerang/lib/soot-trunk.jar
+heros.jar=../Boomerang/lib/heros-trunk.jar
+
+# Target JAR file
+infoflow.jar=../builds/infoflow.jar
+
+# TODO: compile with projects checked out and recompile them with build.xml

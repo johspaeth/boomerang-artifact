@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="mac-spaeth.sit.fraunhofer.de" name="soot.jimple.infoflow.test.securibench.CollectionTests" skipped="0" tests="1" time="0.0" timestamp="2015-06-15T12:09:27">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.7.0_51-b13" />
+    <property name="user.name" value="spaeth" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib" />
+    <property name="infoflow.jar" value="../builds/infoflow-dart.jar" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="soot-infoflow" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="DE" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/experiments.xml" />
+    <property name="os.version" value="10.10.3" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.51-b03" />
+    <property name="infoflow-javadoc.jar" value="" />
+    <property name="ant.file.soot-infoflow" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/experiments.xml" />
+    <property name="ant.library.dir" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="infoflow-tests.jar" value="../builds/infoflow-dart-tests.jar" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
+    <property name="user.home" value="/Users/spaeth" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Applications/eclipse-luna/configuration/org.eclipse.osgi/373/0/.cp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1434370163918 -Declipse.connect.port=55175 -Declipse.pdebuild.home=/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.// -Declipse.pdebuild.scripts=/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts// -Declipse.pdebuild.templates=/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates// -Dant.home=/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/spaeth/Documents/workspace/soot-infoflow-alias/experiments.xml experiment-yan" />
+    <property name="java.class.path" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-antlr.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-bcel.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-bsf.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-log4j.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-oro.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-regexp.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-resolver.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-xalan2.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-commons-logging.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-commons-net.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jai.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-javamail.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jdepend.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jmf.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jsch.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-netrexx.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-swing.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-testutil.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/Applications/eclipse-luna/configuration/org.eclipse.osgi/62/0/.cp/lib/antdebug.jar:/Applications/eclipse-luna/configuration/org.eclipse.osgi/62/0/.cp/lib/remote.jar:/Applications/eclipse-luna/configuration/org.eclipse.osgi/63/0/.cp/lib/remoteAnt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/lib/tools.jar:/Applications/eclipse-luna/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.103.0.v20140605-2012.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="ant.file.type.soot-infoflow" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="eclipse.pdebuild.home" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/61/20qsh7_j6_ncnywwtd50d_qm0000gp/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="dart.jar" value="../builds/dart.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="soot.jar" value="../builds/soot-trunk.jar" />
+    <property name="basedir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="experiment-yan" />
+  </properties>
+  <testcase classname="soot.jimple.infoflow.test.securibench.CollectionTests" name="unknown" time="0.0">
+    <error message="Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit.
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+</error>
+  </testcase>
+</testsuite>

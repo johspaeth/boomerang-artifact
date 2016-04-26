@@ -1,0 +1,13 @@
+#Fill the following paths to compile with jars:
+
+#Location of soot.jar
+soot.jar=../Boomerang/lib/soot-trunk.jar
+heros.jar=../Boomerang/lib/heros-trunk.jar
+boomerang.jar=../builds/boomerang.jar
+sbandda.jar=../builds/sbandda.jar
+
+#Location of FlowDroid infoflow jar
+infoflow.jar=../builds/infoflow.jar
+
+# Target JAR file
+infoflow-android.jar=../builds/infoflow-android.jar

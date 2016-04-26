@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="mac-spaeth.sit.fraunhofer.de" name="soot.jimple.infoflow.test.junit.CallbackTests" skipped="0" tests="3" time="6.104" timestamp="2015-06-15T11:22:58">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.7.0_51-b13" />
+    <property name="user.name" value="spaeth" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib" />
+    <property name="infoflow.jar" value="../builds/infoflow-dart.jar" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="soot-infoflow" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="DE" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/build.xml" />
+    <property name="os.version" value="10.10.3" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.51-b03" />
+    <property name="infoflow-javadoc.jar" value="" />
+    <property name="ant.file.soot-infoflow" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias/build.xml" />
+    <property name="ant.library.dir" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="infoflow-tests.jar" value="../builds/infoflow-dart-tests.jar" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
+    <property name="user.home" value="/Users/spaeth" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner soot.jimple.infoflow.test.junit.CallbackTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/spaeth/Documents/workspace/soot-infoflow-alias/reports/TEST-soot.jimple.infoflow.test.junit.CallbackTests.xml crashfile=/Users/spaeth/Documents/workspace/soot-infoflow-alias/junitvmwatcher3056623225146695408.properties propsfile=/Users/spaeth/Documents/workspace/soot-infoflow-alias/junit5275640684424831466.properties" />
+    <property name="java.class.path" value="/Users/spaeth/Documents/workspace/builds/soot-trunk.jar:/Users/spaeth/Documents/workspace/builds/dart.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/build/classes:/Users/spaeth/Documents/workspace/soot-infoflow-alias/build/testclasses:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/cos.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/j2ee.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/junit.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/org.hamcrest.core_1.3.0.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-api-1.7.5.jar:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-simple-1.7.5.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="ant.file.type.soot-infoflow" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="eclipse.pdebuild.home" value="/Applications/eclipse-luna/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/61/20qsh7_j6_ncnywwtd50d_qm0000gp/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/spaeth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="dart.jar" value="../builds/dart.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="soot.jar" value="../builds/soot-trunk.jar" />
+    <property name="basedir" value="/Users/spaeth/Documents/workspace/soot-infoflow-alias" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/Applications/eclipse-luna/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar" />
+    <property name="file.encoding" value="US-ASCII" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="runtests" />
+  </properties>
+  <testcase classname="soot.jimple.infoflow.test.junit.CallbackTests" name="secondCallBackTest" time="3.417" />
+  <testcase classname="soot.jimple.infoflow.test.junit.CallbackTests" name="thirdCallBackTest" time="1.607" />
+  <testcase classname="soot.jimple.infoflow.test.junit.CallbackTests" name="callbackTest" time="1.006" />
+  <system-out><![CDATA[Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+$r0(soot.jimple.infoflow.test.CallbackTestCode$Activity) <soot.jimple.infoflow.test.CallbackTestCode$Activity: java.lang.String field> * | >> @ $r0.<soot.jimple.infoflow.test.CallbackTestCode$Activity: java.lang.String field> = $r1
+_this(soot.jimple.infoflow.test.CallbackTestCode$LocListener) <soot.jimple.infoflow.test.CallbackTestCode$LocListener: soot.jimple.infoflow.test.CallbackTestCode$Activity parent> <soot.jimple.infoflow.test.CallbackTestCode$Activity: java.lang.String field> * | $r0.<soot.jimple.infoflow.test.CallbackTestCode$Activity: java.lang.String field> = $r1>> @ this.<soot.jimple.infoflow.test.CallbackTestCode$LocListener: soot.jimple.infoflow.test.CallbackTestCode$Activity parent> = a
+_this(soot.jimple.infoflow.test.CallbackTestCode$LocListener) <soot.jimple.infoflow.test.CallbackTestCode$LocListener: soot.jimple.infoflow.test.CallbackTestCode$Activity parent> <soot.jimple.infoflow.test.CallbackTestCode$Activity: java.lang.String field> * | $r0.<soot.jimple.infoflow.test.CallbackTestCode$Activity: java.lang.String field> = $r1>> @ this.<soot.jimple.infoflow.test.CallbackTestCode$LocListener: soot.jimple.infoflow.test.CallbackTestCode$Activity parent> = a
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+$r0(soot.jimple.infoflow.test.CallbackTestCode$Activity2) <soot.jimple.infoflow.test.CallbackTestCode$Activity2: java.lang.String field> * | >> @ $r0.<soot.jimple.infoflow.test.CallbackTestCode$Activity2: java.lang.String field> = $r1
+_this(soot.jimple.infoflow.test.CallbackTestCode$LocListener2) <soot.jimple.infoflow.test.CallbackTestCode$LocListener2: soot.jimple.infoflow.test.CallbackTestCode$Activity2 parent> <soot.jimple.infoflow.test.CallbackTestCode$Activity2: java.lang.String field> * | $r0.<soot.jimple.infoflow.test.CallbackTestCode$Activity2: java.lang.String field> = $r1>> @ this.<soot.jimple.infoflow.test.CallbackTestCode$LocListener2: soot.jimple.infoflow.test.CallbackTestCode$Activity2 parent> = a
+_this(soot.jimple.infoflow.test.CallbackTestCode$LocListener2) <soot.jimple.infoflow.test.CallbackTestCode$LocListener2: soot.jimple.infoflow.test.CallbackTestCode$Activity2 parent> <soot.jimple.infoflow.test.CallbackTestCode$Activity2: java.lang.String field> * | $r0.<soot.jimple.infoflow.test.CallbackTestCode$Activity2: java.lang.String field> = $r1>> @ this.<soot.jimple.infoflow.test.CallbackTestCode$LocListener2: soot.jimple.infoflow.test.CallbackTestCode$Activity2 parent> = a
+ALIASQUERIES 0
+Warning: javax.crypto.SecretKey is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+l0(soot.jimple.infoflow.test.CallbackTestCode$Container) <soot.jimple.infoflow.test.CallbackTestCode$Container: java.lang.String field> * | >> @ l0.<soot.jimple.infoflow.test.CallbackTestCode$Container: java.lang.String field> = l1
+_this(soot.jimple.infoflow.test.CallbackTestCode$MyLocationListener) <soot.jimple.infoflow.test.CallbackTestCode$MyLocationListener: soot.jimple.infoflow.test.CallbackTestCode$Container con> <soot.jimple.infoflow.test.CallbackTestCode$Container: java.lang.String field> * | l0.<soot.jimple.infoflow.test.CallbackTestCode$Container: java.lang.String field> = l1>> @ this.<soot.jimple.infoflow.test.CallbackTestCode$MyLocationListener: soot.jimple.infoflow.test.CallbackTestCode$Container con> = con
+_this(soot.jimple.infoflow.test.CallbackTestCode$MyLocationListener) <soot.jimple.infoflow.test.CallbackTestCode$MyLocationListener: soot.jimple.infoflow.test.CallbackTestCode$Container con> <soot.jimple.infoflow.test.CallbackTestCode$Container: java.lang.String field> * | l0.<soot.jimple.infoflow.test.CallbackTestCode$Container: java.lang.String field> = l1>> @ this.<soot.jimple.infoflow.test.CallbackTestCode$MyLocationListener: soot.jimple.infoflow.test.CallbackTestCode$Container con> = con
+ALIASQUERIES 0
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/spaeth/Documents/workspace/builds/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/spaeth/Documents/workspace/soot-infoflow-alias/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-0] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.074463 seconds
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Callgraph has 40 edges
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 1 sources and 1 sinks.
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 96 forward and 56 backward edges solved, processing 1 results...
+[Thread-0] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-0] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-0] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-0] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 0.003728 seconds in total
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1) in method <soot.jimple.infoflow.test.CallbackTestCode$Activity: void send()> was called with values from the following sources:
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - - $r1 = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.CallbackTestCode$LocListener: void set()>
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.CallbackTestCode$Activity: void send()>
+[Thread-0] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1)
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-4] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.003259 seconds
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Callgraph has 38 edges
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 1 sources and 1 sinks.
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 99 forward and 46 backward edges solved, processing 1 results...
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-4] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 0.003398 seconds in total
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1) in method <soot.jimple.infoflow.test.CallbackTestCode$Activity2: void send()> was called with values from the following sources:
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - - $r1 = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.CallbackTestCode$LocListener2: void set()>
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.CallbackTestCode$Activity2: void send()>
+[Thread-4] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1)
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[Thread-7] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.004769 seconds
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Callgraph has 39 edges
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Implicit flow tracking is NOT enabled
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Running with a maximum access path length of 5
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Using path-agnostic result collection
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Recursive access path shortening is enabled
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 1 sources and 1 sinks.
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 84 forward and 34 backward edges solved, processing 1 results...
+[Thread-7] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[Thread-7] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[Thread-7] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[Thread-7] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 0.001076 seconds in total
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1) in method <soot.jimple.infoflow.test.CallbackTestCode$Container: void publish()> was called with values from the following sources:
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - - $r1 = staticinvoke <soot.jimple.infoflow.test.android.TelephonyManager: java.lang.String getDeviceId()>() in method <soot.jimple.infoflow.test.CallbackTestCode$MyLocationListener: void onLocationChanged()>
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - 	 -> <soot.jimple.infoflow.test.CallbackTestCode$Container: void publish()>
+[Thread-7] INFO soot.jimple.infoflow.Infoflow - 		 -> virtualinvoke cm.<soot.jimple.infoflow.test.android.ConnectionManager: void publish(java.lang.String)>($r1)
+]]></system-err>
+</testsuite>

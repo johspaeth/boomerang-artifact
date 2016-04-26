@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="example"/>
+	<classpathentry kind="src" output="targets" path="exampleTarget"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.18.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.18.jar"/>
+	<classpathentry kind="lib" path="lib/grph-1.8.0-big.jar"/>
+	<classpathentry kind="lib" path="lib/heros-trunk.jar"/>
+	<classpathentry kind="lib" path="lib/soot-trunk.jar"/>
+	<classpathentry kind="lib" path="../builds/boomerang.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

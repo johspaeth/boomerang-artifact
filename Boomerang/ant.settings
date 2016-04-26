@@ -1,0 +1,5 @@
+#Fill the following paths to compile with jars:
+
+# Target JAR file
+boomerang.jar=../builds/boomerang.jar
+
