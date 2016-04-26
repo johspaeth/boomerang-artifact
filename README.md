@@ -1,4 +1,4 @@
-# Boomerang Artifact Evaluation
+# Boomerang Artifact
 
 This is the artifact which was evaluated for the paper Boomerang: Demand-Driven Flow- and Context-Sensitive Pointer Analysis for Java which is published as part of the ECOOP 2016 conference. It is a bundle to be able to evaluate soundness and precision of the Boomerang, SB[1] and DA[2]. In addition to that the artifact can be used to run it on arbitrary Android applications.
 
