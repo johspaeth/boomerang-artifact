@@ -232,8 +232,6 @@ public class BoomerangAliasStrategy extends AbstractBulkAliasStrategy {
     for (int i = 0; i < Math.min(fields.length, accessPathLength); i++) {
       WrappedSootField field = fields[i];
       if (field.getField().equals(AliasFinder.ARRAY_FIELD)) {
-        // throw new
-        // RuntimeException("TODO implement mappind of array to FlowDroid");
         if (!fdFieldType.isEmpty()) {
           int last = fdFieldType.size() - 1;
           Type type = fdFieldType.get(last);
@@ -327,7 +325,7 @@ public class BoomerangAliasStrategy extends AbstractBulkAliasStrategy {
         return boomerangCallerContexts;
       }
 
-      // If we did not has the 0-Fact as start fact, we query the incomingMap to see via which
+      // If we did not have the 0-Fact as start fact, we query the incomingMap to see via which
       // callsite the forward analysis entered a method
       Collection<Pair<Unit, Abstraction>> callerContexts =
           incomingMap.get(new Pair<SootMethod, Abstraction>(methodOf, abstraction));
